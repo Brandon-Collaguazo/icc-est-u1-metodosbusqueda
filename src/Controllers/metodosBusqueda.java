@@ -11,7 +11,6 @@ public class metodosBusqueda {
     public metodosBusqueda(Persona[] personas) {
         showConsole = new ShowConsole();
         this.people = personas;
-        showPersonByCode();
     }
     public int busquedaLineal(int [] arreglo, int valor) {
         for(int i = 0; i < arreglo.length; i++) {

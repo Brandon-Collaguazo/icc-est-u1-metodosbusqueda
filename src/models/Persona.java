@@ -21,6 +21,6 @@ public class Persona {
     }
     @Override
     public String toString() {
-        return "Persona [code=" + code + ", name=" + name + "]";
+        return "Persona [Code=" + code + ", Name=" + name + "]";
     }
 }

@@ -8,12 +8,12 @@ public class ShowConsole {
         System.out.println("Método búsqueda");
     }
     public int getCode() {
-        System.out.println("Ingrese código");
+        System.out.print("Ingrese código: ");
         int codigo = sc.nextInt();
-        System.out.println("Código ingresado " + codigo);
+        System.out.println("Código ingresado -> " + codigo);
         return codigo;
     }
     public void showMessage(String message) {
-        
+        System.out.println(message);
     }
 }
