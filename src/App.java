@@ -14,6 +14,7 @@ public class App {
         personas[5] = new Persona(105, "Sofia");
         personas[6] = new Persona(106, "Pedro");
         MetodosBusquedaBinaria mBB = new MetodosBusquedaBinaria(personas);
-        mBB.showPersonByCode();
+        //mBB.showPersonByCode();
+        mBB.showPersonByName();
     }
 }
